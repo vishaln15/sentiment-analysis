@@ -2,5 +2,6 @@ scikit-learn==1.2.0
 nltk==3.8
 flask>=2.0.0
 xgboost>=1.7.2
+gunicorn==20.1.0
 
 # "import nltk; nltk.download("omw-1.4"); nltk.download("wordnet"); nltk.download("stopwords")"
