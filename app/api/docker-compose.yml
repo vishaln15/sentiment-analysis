@@ -1,0 +1,11 @@
+version: "3.10"
+
+services:
+  mlapp:
+    container_name: mlapp
+    image: vishaln15/mlapp
+    ports:
+      - "5000:5000"
+    build:
+      context: .
+      dockerfile: Dockerfile
