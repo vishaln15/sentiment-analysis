@@ -20,5 +20,4 @@ def predict():
     output = preds[0]["label"]
     return render_template("index.html", prediction_text=f"The type of text is predicted as {output}")
 
-if __name__=="__main__":
-    app.run()
+app.run()
