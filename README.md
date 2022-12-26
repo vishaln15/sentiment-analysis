@@ -2,11 +2,11 @@
 
 ## Description
 
-This is a small scale application that takes a sentence as input and detects if it is a Positive or Negative sentiment. A ![Kaggle dataset](https://www.kaggle.com/datasets/kazanova/sentiment140) containing 1.6 million tweets is preprocessed and used for training an XGBoost Classifier. The Flask app calls the model prediction on receiving input from the text field. This app is dockerized as a container and stored in Google Cloud Registry (GCR). The objective of this project is to understand and learn the fundamentals of Flask, Docker, and Google Cloud Platform.
+This is a small scale application that takes a sentence as input and detects if it is a Positive or Negative sentiment. A [Kaggle dataset](https://www.kaggle.com/datasets/kazanova/sentiment140) containing 1.6 million tweets is preprocessed and used for training an XGBoost Classifier. The Flask app calls the model prediction on receiving input from the text field. This app is dockerized as a container and stored in Google Cloud Registry (GCR). The objective of this project is to understand and learn the fundamentals of Flask, Docker, and Google Cloud Platform.
 
 ## Sample Video
 
-![Sample Video](./assets/sample_video.MP4)
+[Sample Video](./assets/sample_video.MP4)
 
 ## Usage
 
@@ -65,5 +65,5 @@ gcloud run deploy --image gcr.io/sentiment-analysis-flask-app/container --platfo
 
 ## Acknowledgements
 
-- This project used resources such as StackOverflow, ![YouTube](https://youtu.be/zGP_nYmZd9c), and ![Medium](https://towardsdatascience.com/deploy-a-dockerized-flask-app-to-google-cloud-platform-71d91b39b25e).
-- Dataset used for this project was taken from ![Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140).
+- This project used resources such as StackOverflow, [YouTube](https://youtu.be/zGP_nYmZd9c), and [Medium](https://towardsdatascience.com/deploy-a-dockerized-flask-app-to-google-cloud-platform-71d91b39b25e).
+- Dataset used for this project was taken from [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140).
