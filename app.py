@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request, render_template
 from utils import predict_pipeline
+import os
 
 app = Flask(__name__)
 
@@ -20,4 +21,4 @@ def predict():
     output = preds[0]["label"]
     return render_template("index.html", prediction_text=f"The type of text is predicted as {output}")
 
-app.run()
+app.run(port=int(os.environ.get("PORT", 5000)), host="0.0.0.0")

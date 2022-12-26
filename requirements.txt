@@ -4,4 +4,4 @@ flask>=2.0.0
 xgboost>=1.7.2
 gunicorn==20.1.0
 
-# "import nltk; nltk.download("omw-1.4"); nltk.download("wordnet"); nltk.download("stopwords")"
+# "import nltk; nltk.download("omw-1.4"); nltk.download("wordnet");"
