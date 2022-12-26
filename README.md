@@ -6,7 +6,7 @@ This is a small scale application that takes a sentence as input and detects if 
 
 ## Sample Video
 
-[Sample Video](./assets/sample_video.MP4)
+https://user-images.githubusercontent.com/59926447/209587889-17c8dc3e-45ab-4c7c-998b-be4655db4fb4.MP4
 
 ## Usage
 
